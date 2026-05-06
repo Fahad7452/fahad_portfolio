@@ -29,6 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import udesign from "./udesign.png";
+import moodrefresh from "./moodrefresh.png";
+import coveruponline from "./coveruponline.png";
+import passwordpact from "./passwordpact.png";
+import vault911 from "./vault911.png";
 
 export {
   logo,
@@ -59,4 +64,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  udesign,
+  moodrefresh,
+  coveruponline,
+  passwordpact,
+  vault911,
 };

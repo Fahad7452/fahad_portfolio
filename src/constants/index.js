@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  udesign,
+  moodrefresh,
+  coveruponline,
+  passwordpact,
+  vault911,
 } from "../assets";
 
 export const navLinks = [
@@ -160,7 +165,7 @@ const projects = [
   {
     name: "MoodRefresh",
     description:
-      "A comprehensive mood tracking and wellness platform built with modern web technologies. Features user authentication, mood analytics, and personalized recommendations for mental health improvement.",
+      "Repair & secure your digital life, discover your loved ones. A comprehensive mood tracking and wellness platform built with modern web technologies. Features user authentication, mood analytics, and personalized recommendations for mental health improvement.",
     tags: [
       {
         name: "react",
@@ -175,13 +180,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: coveruponline,
     source_code_link: "https://moodrefresh.com",
+    live_demo_link: "https://moodrefresh.com",
   },
   {
     name: "CoverUpOnline",
     description:
-      "Professional cover letter generation platform with AI-powered suggestions and customizable templates. Built with responsive design and seamless user experience for job seekers.",
+      "Refresh your space with intelligent recommendations. Professional cover letter generation platform with AI-powered suggestions and customizable templates. Built with responsive design and seamless user experience for job seekers.",
     tags: [
       {
         name: "nextjs",
@@ -196,13 +202,15 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: moodrefresh,
+    
     source_code_link: "https://coveruponline.com",
+    live_demo_link: "https://coveruponline.com",
   },
   {
     name: "PasswordPact",
     description:
-      "Secure password management solution with end-to-end encryption and cross-platform synchronization. Features include password generation, secure sharing, and breach monitoring.",
+      "Keep your digital information safe. Secure password management solution with end-to-end encryption and cross-platform synchronization. Features include password generation, secure sharing, and breach monitoring.",
     tags: [
       {
         name: "react",
@@ -217,13 +225,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: udesign,
     source_code_link: "https://passwordpact.com",
+    live_demo_link: "https://passwordpact.com",
   },
   {
     name: "911Vault",
     description:
-      "Emergency information storage and retrieval system with secure cloud backup. Provides quick access to critical information during emergencies with offline capabilities.",
+      "Fuel Your Imagination - Emergency information storage and retrieval system with secure cloud backup. Provides quick access to critical information during emergencies with offline capabilities.",
     tags: [
       {
         name: "react-native",
@@ -238,8 +247,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: passwordpact,
     source_code_link: "https://911vault.com",
+    live_demo_link: "https://911vault.com",
   },
   {
     name: "U-Design Portfolio",
@@ -259,8 +269,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: vault911,
     source_code_link: "https://u-design-chi.vercel.app",
+    live_demo_link: "https://u-design-chi.vercel.app",
   },
 ];
 
